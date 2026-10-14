@@ -2,8 +2,8 @@
 
 A machine-learning system that watches network traffic, flags attacks (DoS floods, brute force, port scans, data exfiltration) and unknown anomalies, and shows everything on a live security dashboard. One command trains the models, runs a simulated attack stream through them, draws the charts and starts the API.
 
-![Sentinel dashboard](<img width="1886" height="921" alt="Screenshot 2026-10-14 204249" src="https://github.com/user-attachments/assets/5c863bf5-b1cf-4761-a7b8-d6ca71e33cb0" />
-)
+![image alt](https://github.com/guraiml30/AI-Cybersecurity-Threat-Detection-/blob/db302f4ebf0d595435eb3d432845dd7e8a0da883/Screenshot%202026-10-14%20204249.png)
+
 
 > **Note:** All traffic is simulated. The project needs no real network or corporate systems, so anyone can run and verify it.
 
