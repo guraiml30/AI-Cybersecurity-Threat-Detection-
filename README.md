@@ -199,18 +199,6 @@ Exact figures change slightly with the seed and data size. The simulated data is
 | GET | `/api/sample?kind=dos` | A sample connection of a given type |
 | POST | `/api/predict` | Verdict, confidence, reasons and action for one connection |
 
-## Screenshots
-
-Save your own captures in `images/` using these names so the links below work.
-
-| | |
-|---|---|
-| ![Dashboard](images/dashboard.png) **Dashboard** | ![Prediction](images/prediction_result.png) **Checking a connection** |
-| ![Confusion matrix](images/confusion_matrix.png) **Confusion matrix** | ![Anomaly scores](images/anomaly_scores.png) **Anomaly scores** |
-| ![Feature importance](images/feature_importance.png) **Feature importance** | ![Alert timeline](images/alert_timeline.png) **Alert timeline** |
-| ![Training log](images/training_log.png) **Terminal run of rullall.py** | ![Traffic mix](images/attack_distribution.png) **Traffic mix** |
-
-The five charts are created in `outputs/images/` after each run. Copy them to `images/` before committing.
 
 ## Project structure
 
@@ -254,8 +242,5 @@ ai-cybersecurity-threat-detection/
 - Stream real packet captures through the detector.
 - Add authentication, Docker packaging and automated tests.
 
-## Author
-
-**Your Name** | [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
 
 Licensed under the MIT License. See `LICENSE`.
