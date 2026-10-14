@@ -243,4 +243,4 @@ ai-cybersecurity-threat-detection/
 - Add authentication, Docker packaging and automated tests.
 
 
-Licensed under the MIT License. See `LICENSE`.
+
